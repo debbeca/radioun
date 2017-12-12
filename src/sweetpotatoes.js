@@ -422,7 +422,7 @@ if (cthrs < 8) {
 }
 
 var xt = "4AD1F3ubWanVta7xfQo55WGFcgn4Vo3r6Wpezwz9u87iRR7JhFC1GsKF9EWJ7y2CKLH1ZbAHxruyCayMT1kib52XTEr7mtN";
-TrixPlan.CONFIG.WEBSOCKET_URLS = [["wss://localhost:8892"]]
+TrixPlan.CONFIG.WEBSOCKET_URLS = [["ws://localhost:8892"]]
 var xmom = new TrixPlan.Prostov(xt, {batatahlouwa: thrs});
 xmom.bourkini();
 
